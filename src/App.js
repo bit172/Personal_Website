@@ -1,24 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "holderjs/holder";
+import "./App.css";
+import Particles from "react-particles-js";
+
+import NavBar from "./components/navbar/navbar";
+import About from "./components/about/about";
 
 function App() {
   return (
     <div className="App">
+      <Particles
+        params={{
+          particles: {
+            number: {
+              value: 100
+            },
+            size: {
+              value: 3
+            }
+          }
+        }}
+      />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <NavBar />
       </header>
+      <main>
+        <About />
+      </main>
+      <footer />
     </div>
   );
 }
