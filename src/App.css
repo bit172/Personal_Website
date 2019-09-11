@@ -3,10 +3,19 @@
 }
 
 body {
+  font-family: 'Confortaa', sans-serif;
   padding-top: 100px;
   font-size: 20 em;
   background-color: rgb(97, 97, 97);
 }
+
+h1 {
+  font-family: 'Comfortaa', cursive;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 /* for Particles to reach whole screen */
 canvas {
   display: block;
