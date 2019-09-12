@@ -3,23 +3,34 @@
 }
 
 body {
-  font-family: 'Confortaa', sans-serif;
+  font-family: "Comfortaa", cursive;
   padding-top: 100px;
   font-size: 20 em;
+  color: rgb(255, 255, 255);
   background-color: rgb(97, 97, 97);
 }
 
-h1 {
-  font-family: 'Comfortaa', cursive;
-  color: rgb(255, 255, 255);
-  font-weight: 700;
-  text-transform: uppercase;
+.particle {
+  z-index: 0;
+}
+.content {
+  z-index: 1;
 }
 
+h1 {
+  font-family: "Comfortaa", cursive;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.avatar {
+  border: 10px black;
+}
 /* for Particles to reach whole screen */
 canvas {
   display: block;
   position: absolute;
   margin-top: 0px;
   margin-bottom: 0px;
+  z-index: -1;
 }
