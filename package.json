@@ -4,6 +4,11 @@
   "private": true,
   "homepage": "/~jo_hsu",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.22",
+    "@fortawesome/free-brands-svg-icons": "^5.10.2",
+    "@fortawesome/free-regular-svg-icons": "^5.10.2",
+    "@fortawesome/free-solid-svg-icons": "^5.10.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
     "bootstrap": "^4.3.1",
     "holderjs": "^2.9.6",
     "jquery": "^3.4.1",
@@ -12,7 +17,8 @@
     "react-circular-progressbar": "^2.0.2",
     "react-dom": "^16.9.0",
     "react-particles-js": "^2.7.0",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "react-scroll": "^1.7.14"
   },
   "scripts": {
     "start": "react-scripts start",

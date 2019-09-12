@@ -1,13 +1,14 @@
 .nav-link {
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 
 body {
-  font-family: "Comfortaa", cursive;
+  font-family: "Saira Extra Condensed", sans-serif;
   padding-top: 100px;
   font-size: 20 em;
   color: rgb(255, 255, 255);
-  background-color: rgb(97, 97, 97);
+  /*background-color: rgb(97, 97, 97);*/
+  background-color: rgb(138, 125, 125);
 }
 
 .particle {
@@ -18,14 +19,15 @@ body {
 }
 
 h1 {
-  font-family: "Comfortaa", cursive;
   color: rgb(255, 255, 255);
   font-weight: 700;
+  font-size: 4rem;
 }
 
 .avatar {
-  border: 10px black;
+  border: 2px black solid;
 }
+
 /* for Particles to reach whole screen */
 canvas {
   display: block;
@@ -33,4 +35,26 @@ canvas {
   margin-top: 0px;
   margin-bottom: 0px;
   z-index: -1;
+}
+
+.container {
+  background-color: rgb(0, 0, 0, 0.5);
+  opacity: 15%;
+}
+
+.section {
+  height: 100vh;
+}
+
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
 }
