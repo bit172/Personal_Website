@@ -29,8 +29,8 @@ const About = () => {
           <Col xs={12} md={6}>
             <h1>Jonathan Hsu</h1>
             <h3>
-              Montreal, Qc · (438) 438-7029 ·{" "}
-              <a href="mailto:bit172@gmail.com">bit172@gmail.com</a>
+              Concordia University · Software Engineering · Montreal, Qc · (438)
+              888-7029 · <a href="mailto:bit172@gmail.com">bit172@gmail.com</a>
             </h3>
             <div className="social-icons">
               <a
@@ -50,15 +50,13 @@ const About = () => {
         </Row>
         <Row>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-            sagittis sem eget ultrices pharetra. Sed luctus libero eget enim
-            egestas, eget placerat risus hendrerit. Donec efficitur mollis
-            luctus. Proin posuere ex nulla, ac malesuada tortor dignissim ut.
-            Vivamus consectetur mi id posuere sodales. Orci varius natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Praesent in cursus neque, sit amet condimentum nunc. Pellentesque
-            vel eros est. In sit amet ipsum eget metus auctor volutpat non id
-            ante.
+            I am a third year software engineering student at Concordia
+            University. I started programming in 2016 at Marianopolis College
+            using Python. Since then, I learned the basics of web development
+            and a few frameworks along the way (Angular, React, Node.js). I
+            enjoy learning about full stack web development and new web
+            technologies. I have also done a bit of graphics programming using
+            OpenGL and C++.
           </p>
         </Row>
       </Container>

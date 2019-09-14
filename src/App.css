@@ -1,13 +1,18 @@
 .nav-link {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 body {
   font-family: "Saira Extra Condensed", sans-serif;
-  padding-top: 100px;
+  padding-top: 72px;
+  padding-bottom: 72px;
   font-size: 20 em;
   color: rgb(255, 255, 255);
   background-color: rgb(97, 97, 97);
+}
+
+.App {
+  padding-bottom: 72px;
 }
 
 .particle {
@@ -47,6 +52,7 @@ canvas {
   padding: 1.5rem;
 }
 .section {
+  padding-top: 60px;
   height: 100vh;
 }
 
