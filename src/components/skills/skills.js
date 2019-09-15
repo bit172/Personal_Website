@@ -3,7 +3,9 @@ import { Container } from "react-bootstrap";
 const Skills = () => {
   return (
     <Container>
-      <h1>Skills</h1>
+      <div className="container-content">
+        <h1 className="section-title">Skills</h1>
+      </div>
     </Container>
   );
 };

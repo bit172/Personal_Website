@@ -20,6 +20,7 @@ const NavBar = () => {
           <Nav.Link href="#">About</Nav.Link>
           <Nav.Link href="#experience">Experience</Nav.Link>
           <Nav.Link href="#skills">Skills</Nav.Link>
+          <Nav.Link href="#interests">Interests</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
