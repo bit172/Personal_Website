@@ -9,7 +9,7 @@ body {
   font-family: "Saira Extra Condensed", sans-serif;
   padding-top: 72px;
   padding-bottom: 72px;
-  color: rgb(255, 255, 255);
+  color: rgb(170, 170, 170);
   background-color: rgb(97, 97, 97);
 }
 
@@ -24,9 +24,15 @@ body {
   padding: 1.5rem;
 }
 
+.section-title {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
 .about-text {
   font-size: 2rem;
 }
+
 /* for Particles to reach whole screen */
 canvas {
   height: 100%;
@@ -39,11 +45,12 @@ canvas {
 }
 
 .name {
+  color: rgb(255, 255, 255);
   font-weight: 700;
   font-size: 4rem;
 }
 
-.primary-title {
+.section-title {
   color: rgb(255, 255, 255);
 }
 
@@ -74,13 +81,28 @@ canvas {
   text-decoration: none;
 }
 
-.section-title {
-  font-weight: 700;
-  font-size: 3rem;
+.experience-section {
+  margin-top: 10rem;
+  margin-bottom: 15rem;
+}
+
+.experience-title {
+  color: rgb(255, 255, 255);
+}
+
+.company-title {
+  color: rgb(214, 212, 212);
+  font-size: 1.5rem;
+}
+
+.company-image {
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 .resume-date {
   font-size: 1.2rem;
+  color: rgb(255, 255, 255);
 }
 
 .experience-text {
