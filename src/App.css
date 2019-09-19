@@ -29,10 +29,6 @@ body {
   font-size: 3rem;
 }
 
-.about-text {
-  font-size: 2rem;
-}
-
 /* for Particles to reach whole screen */
 canvas {
   height: 100%;
@@ -42,12 +38,6 @@ canvas {
   margin-top: 0px;
   margin-bottom: 0px;
   z-index: -1;
-}
-
-.name {
-  color: rgb(255, 255, 255);
-  font-weight: 700;
-  font-size: 4rem;
 }
 
 .section-title {
@@ -62,9 +52,42 @@ canvas {
   border: 2px black solid;
 }
 
-.section {
-  padding-top: 60px;
-  height: 100vh;
+@media (min-width: 768px) {
+  .section {
+    padding-top: 60px;
+    height: 100vh;
+  }
+
+  .about-text {
+    font-size: 2rem;
+  }
+  .name {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding-top: 60px;
+    margin-bottom: 15rem;
+  }
+
+  .about-text {
+    font-size: 1.5rem;
+  }
+
+  .name {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .social-icons {
+    text-align: center;
+  }
 }
 
 .social-icons a {
@@ -80,9 +103,8 @@ canvas {
   margin-right: 1rem;
   text-decoration: none;
 }
-
 .experience-section {
-  margin-top: 10rem;
+  margin-top: 1rem;
   margin-bottom: 15rem;
 }
 
@@ -107,4 +129,21 @@ canvas {
 
 .experience-text {
   font-size: 1.4rem;
+}
+
+@media (max-width: 768px) {
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+}
+@media (min-width: 768px) {
+  .skills-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+  }
 }
