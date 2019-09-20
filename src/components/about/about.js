@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import avatar from "./avatar.png";
-import resume from "./ResumeOut.pdf";
+import resume from "./Resume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const About = () => {
