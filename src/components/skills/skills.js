@@ -15,7 +15,7 @@ import mysqlImage from "./images/mysql.png";
 
 const Skills = () => {
   return (
-    <div className="experience-section">
+    <div className="experience-section" id="skills">
       <Container>
         <div className="container-content">
           <h1 className="section-title">Skills</h1>

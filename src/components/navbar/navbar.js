@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
+import { Link } from "react-scroll";
 import logo from "./favicon.png";
 
 const NavBar = () => {
@@ -17,10 +18,54 @@ const NavBar = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="#">About</Nav.Link>
-          <Nav.Link href="#experience">Experience</Nav.Link>
-          <Nav.Link href="#skills">Skills</Nav.Link>
-          <Nav.Link href="#interests">Interests</Nav.Link>
+          <Nav.Item data-toggle>
+            <Link
+              className="nav-link"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-71}
+              duration={500}
+            >
+              About
+            </Link>
+          </Nav.Item>
+          <Nav.Item data-toggle>
+            <Link
+              className="nav-link"
+              to="experience"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+            >
+              Experience
+            </Link>
+          </Nav.Item>
+          <Nav.Item data-toggle>
+            <Link
+              className="nav-link"
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Skills
+            </Link>
+          </Nav.Item>
+          <Nav.Item data-toggle>
+            <Link
+              className="nav-link"
+              to="interests"
+              spy={true}
+              smooth={true}
+              offset={-300}
+              duration={500}
+            >
+              Interests
+            </Link>
+          </Nav.Item>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

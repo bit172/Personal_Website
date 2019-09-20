@@ -3,7 +3,7 @@ import { Container, Col, Image } from "react-bootstrap";
 import genetec from "./images/genetec.png";
 const Experience = () => {
   return (
-    <div className="experience-section">
+    <div className="experience-section" id="experience">
       <Container>
         <div className="container-content">
           <h1 className="section-title">Experience</h1>
@@ -21,7 +21,7 @@ const Experience = () => {
                   className="company-image"
                 />
               </div>
-              <p className="experience-text">
+              <p className="general-text">
                 Developed part of a internal web tool that keeps track of data
                 associated with manufactured parts for the Electronic Production
                 team. Created UI elements and configured HTTP requests to a

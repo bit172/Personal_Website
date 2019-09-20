@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const About = () => {
   return (
-    <div className="section">
+    <div className="section" id="about">
       <Container>
         <div className="container-content">
           <Row>

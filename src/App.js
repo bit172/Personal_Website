@@ -10,6 +10,7 @@ import ParticleComponent from "./components/particleComponent/particleComponent"
 import About from "./components/about/about";
 import Experience from "./components/experience/experience";
 import Skills from "./components/skills/skills";
+import Interests from "./components/interests/interests";
 library.add(fab, faFileDownload);
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <About />
         <Experience />
         <Skills />
+        <Interests />
       </main>
       <footer />
     </div>
