@@ -16,7 +16,6 @@ body {
 .container {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 25px;
-  opacity: 15%;
   width: auto;
 }
 
