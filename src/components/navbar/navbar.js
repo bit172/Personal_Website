@@ -1,74 +1,34 @@
 import React from "react";
-import { Navbar, Nav } from "react-bootstrap";
-import { Link } from "react-scroll";
 import logo from "./favicon.png";
+import NavbarItem from "./navbarItem";
 
 const NavBar = () => {
   return (
-    <Navbar
-      fixed="top"
-      bg="dark"
-      variant="dark"
-      expand="sm"
-      collapseOnSelect="true"
-    >
-      <Navbar.Brand href="/">
+    <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <a className="navbar-brand" href="#about">
         <img src={logo} width="35px" height="35px" alt="logo" id="logo" />
-      </Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
-          <Nav.Item data-toggle>
-            <Link
-              className="nav-link"
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={-71}
-              duration={500}
-            >
-              About
-            </Link>
-          </Nav.Item>
-          <Nav.Item data-toggle>
-            <Link
-              className="nav-link"
-              to="experience"
-              spy={true}
-              smooth={true}
-              offset={-80}
-              duration={500}
-            >
-              Experience
-            </Link>
-          </Nav.Item>
-          <Nav.Item data-toggle>
-            <Link
-              className="nav-link"
-              to="skills"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}
-            >
-              Skills
-            </Link>
-          </Nav.Item>
-          <Nav.Item data-toggle>
-            <Link
-              className="nav-link"
-              to="interests"
-              spy={true}
-              smooth={true}
-              offset={-300}
-              duration={500}
-            >
-              Interests
-            </Link>
-          </Nav.Item>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+      </a>
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarToggler"
+        aria-controls="navbarToggler"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span className="navbar-toggler-icon"></span>
+      </button>
+
+      <div className="collapse navbar-collapse" id="navbarToggler">
+        <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+          <NavbarItem name={"About"} to={"about"} />
+          <NavbarItem name={"Experience"} to={"experience"} />
+          <NavbarItem name={"Skills"} to={"skills"} />
+          <NavbarItem name={"Interests"} to={"interests"} />
+        </ul>
+      </div>
+    </nav>
   );
 };
 
