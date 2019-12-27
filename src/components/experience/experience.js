@@ -9,9 +9,7 @@ const Experience = () => {
           <h1 className="section-title">Experience</h1>
           <Col className="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="experience-title mb-0">
-                Electronic Production Tester Intern
-              </h3>
+              <h3 className="experience-title mb-0">Web Developer Intern</h3>
               <div className="company-title mb-3">
                 Genetec
                 <Image
