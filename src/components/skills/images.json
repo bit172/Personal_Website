@@ -1,36 +1,41 @@
 ﻿[
   {
-  	"id":1,
-    "name": "html",
-    "src": "html.png"
-  },
-  {
-  	"id":2,
-    "name": "css",
-    "src": "css.png"
-  },
-  {
-  	"id":3,
-    "name": "javascript",
-    "src": "js.png"
-  },
-  {
-  	"id":4,
-    "name": "csharp",
-    "src": "csharp.png"
-  },
-  {
-  	"id":5,
     "name": "angular",
     "src": "angular.png"
   },
   {
-  	"id":6,
     "name": "react",
     "src": "react.png"
   },
   {
-  	"id":7,
+    "name": "html",
+    "src": "html.png"
+  },
+  {
+    "name": "css",
+    "src": "css.png"
+  },
+  {
+    "name": "javascript",
+    "src": "js.png"
+  },
+  {
+    "name": "typescript",
+    "src": "ts.png"
+  },
+  {
+    "name": "java",
+    "src": "java.png"
+  },
+  {
+    "name": "python",
+    "src": "python.png"
+  },
+  {
+    "name": "csharp",
+    "src": "csharp.png"
+  },
+  {
     "name": "mysql",
     "src": "mysql.png"
   }

@@ -15,7 +15,7 @@ const Skills = () => {
             {images.map(image => (
               <img
                 className="skill-item"
-                key={image.id}
+                key={image.name}
                 src={require(`./images/${image.src}`)}
                 alt={image.name}
               />

@@ -25,7 +25,8 @@ const Experience = () => {
                 team. Created UI elements and configured HTTP requests to a
                 back-end web server in Angular. Implemented back end modules
                 using a CQRS (Command Query Responsibility Segregation)
-                architechture in C#. Developped unit tests for modules created.
+                architechture pattern in C#. Developped unit tests for modules
+                created.
               </p>
             </div>
             <Col md={3} className="resume-date text-md-right">

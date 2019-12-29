@@ -53,7 +53,7 @@ const About = () => {
           </Row>
           <Row>
             <p className="about-text">
-              I am a third year software engineering student at Concordia
+              I am a fourth year software engineering student at Concordia
               University. I started programming in 2016 at Marianopolis College
               using Python. Since then, I learned Java, the basics of web
               development with a few frameworks along the way (Angular, React,
