@@ -1,13 +1,23 @@
 import React from "react";
 import logo from "./favicon.png";
 import NavbarItem from "./navbarItem";
-
+import { Link } from "react-scroll";
 const NavBar = () => {
   return (
     <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-      <a className="navbar-brand" href="#about">
-        <img src={logo} width="35px" height="35px" alt="logo" id="logo" />
-      </a>
+      <li className="navbar-brand" href="#about">
+        <Link
+          data-toggle="collapse"
+          data-target=".navbar-collapse.show"
+          to="root"
+          spy={true}
+          smooth={true}
+          offset={-71}
+          duration={500}
+        >
+          <img src={logo} width="35px" height="35px" alt="logo" id="logo" />
+        </Link>
+      </li>
       <button
         className="navbar-toggler"
         type="button"

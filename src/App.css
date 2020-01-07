@@ -51,6 +51,14 @@ canvas {
   border: 2px black solid;
 }
 
+.nav-link:hover {
+  cursor: pointer;
+}
+
+.navbar-brand:hover {
+  cursor: pointer;
+}
+
 @media (min-width: 768px) {
   .section {
     padding-top: 60px;

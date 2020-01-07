@@ -55,11 +55,12 @@ const About = () => {
             <p className="about-text">
               I am a fourth year software engineering student at Concordia
               University. I started programming in 2016 at Marianopolis College
-              using Python. Since then, I learned Java, the basics of web
-              development with a few frameworks along the way (Angular, React,
-              Node.js). I enjoy learning about full stack web development and
-              new web technologies. I have also done a bit of graphics
-              programming using OpenGL and C++.
+              using Python. Since then, I learned Java, OOP, data structure, web
+              development and software architecture I've also picked up few
+              frameworks along the way (Angular, React, Node.js, Spring Boot). I
+              enjoy learning about full stack web development and new web
+              technologies. I have also done a bit of graphics programming using
+              OpenGL and C++.
             </p>
           </Row>
         </div>
