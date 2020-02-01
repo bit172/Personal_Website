@@ -45,7 +45,7 @@ const About = () => {
                 <a href="https://github.com/bit172" target="blank">
                   <FontAwesomeIcon icon={["fab", "github"]} />
                 </a>
-                <a href={resume} download>
+                <a href={resume} target="blank">
                   CV <FontAwesomeIcon icon={"file-download"} />
                 </a>
               </div>
